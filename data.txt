@@ -1,0 +1,15 @@
+Lines of the file are:
+Reading Files in java with two main classes 
+	1. FileReader : 
+		1) for text files found in local system..
+	   	text files found in server etc.
+	    2) FileReader should usually be wrapped in a BufferedFileReader.
+	       this saves up the data so that we can deal it a line at time
+	       or by character by character 
+	       
+	   
+	2. FileInputStream: for both text and binary file that contain weird characters
+
+Writing a Files in java:
+	The logic is completely same but only difference is for a text file 
+	we should use FileWriter and BufferedFileWriter for text file
